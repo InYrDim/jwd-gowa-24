@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Lowita</title>
+  </head>
+  <body class="inter">
+    <div class="form-wrapper" id="register-form">
+      <form action="#">
+        <div class="form-container">
+          <div class="form-header">
+            <span class="form-title poppins-regular">Registrasi</span>
+            <button type="button" class="form-exit" id="form-exit">X</button>
+          </div>
+          <div class="form-input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-input">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+    <h1 class="poppins-bold">Pantai Lowita</h1>
+    <div class="container">
+      <header>
+        <div id="hero" class="hero">
+          <img class="block img-fluid w-100" src="/asset/hero.jpg" />
+        </div>
+        <nav id="main-nav">
+          <div>
+            <a href="../index.html">Beranda</a>
+            <a href="#" class="active">Pesan</a>
+            <a href="#" id="register-action">Registrasi</a>
+          </div>
+        </nav>
+      </header>
+      <div class="content-wrapper">
+        <main>
+          <h2>Pesan</h2>
+          <form action="#">
+            <div class="form-container">
+              <div class="form-input">
+                <label for="name">Nama Anda</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-input">
+                <label for="phone">No. Telepon</label>
+                <input id="phone" type="tel" name="phone" />
+              </div>
+              <div class="form-input">
+                <label for="ordertype">Tipe Pesanan</label>
+                <select name="ordertype" id="ordertype">
+                  <option value="Sendirian">Sendirian</option>
+                  <option value="Kelompok">Kelompok</option>
+                </select>
+              </div>
+              <button type="submit">Kirim</button>
+            </div>
+          </form>
+        </main>
+        <aside>
+          <div class="embed">
+            <iframe
+              src="https://www.youtube.com/embed/gp9Rb8L03Yo?si=B0ubhQlhRM6sDV3R"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </aside>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>

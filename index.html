@@ -3,9 +3,129 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="src/bootsrap/js/bootstrap.min.js" defer></script>
-    <link rel="stylesheet" href="src/bootsrap/css/bootstrap.min.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/fonts.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script src="src/js/script.js" defer></script>
+    <title>Lowita</title>
   </head>
-  <body></body>
+  <body class="inter">
+    <div class="form-wrapper" id="register-form">
+      <form action="#">
+        <div class="form-container">
+          <div class="form-header">
+            <span class="form-title poppins-regular">Registrasi</span>
+            <button type="button" class="form-exit" id="form-exit">X</button>
+          </div>
+          <div class="form-input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-input">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+    <h1 class="poppins-bold">Pantai Lowita</h1>
+    <div class="container">
+      <header>
+        <div id="hero" class="hero">
+          <img class="block img-fluid w-100" src="/asset/hero.jpg" />
+        </div>
+        <nav id="main-nav">
+          <div>
+            <a href="" class="active">Beranda</a>
+            <a href="src/order.html">Pesan</a>
+            <a href="#" id="register-action">Registrasi</a>
+          </div>
+        </nav>
+      </header>
+      <div class="content-wrapper">
+        <main>
+          <div id="feature" class="cards-container">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="asset/feature/lowita-1.jpeg"
+                  class="card-img-top"
+                  alt="gambar-lowita-1"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Cerita Dari Pantai Lowita</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="asset/feature/lowita-2.jpeg"
+                  class="card-img-top"
+                  alt="gambar-lowita-2"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Wisata Pantai Lowita</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="asset/feature/lowita-3.jpeg"
+                  class="card-img-top"
+                  alt="gambar-lowita-3"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Travel to Lowita</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img
+                  src="asset/feature/lowita-4.jpeg"
+                  class="card-img-top"
+                  alt="gambar-lowita-4"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Pantai Indah, Lowita</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </main>
+        <aside>
+          <div class="embed">
+            <iframe
+              src="https://www.youtube.com/embed/gp9Rb8L03Yo?si=B0ubhQlhRM6sDV3R"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </aside>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
 </html>
