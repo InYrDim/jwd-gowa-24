@@ -21,7 +21,7 @@ Sumber gambar: [Pemkab Pinrang](https://pinrangkab.go.id/wisata/pantai-lowita/)
 
 1. Mulai
 2. Masukkan nilai jari-jari
-3. Proses luas = 22/7 _ jari-jari _ jari-jari
+3. Proses luas = 22/7 * jari-jari * jari-jari
 4. Tampilkan hasil proses hitung luas
 5. Selesai
 
